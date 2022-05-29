@@ -1,4 +1,4 @@
-This is just a version of the popular [Colemak](www.colemak.com) keyboard layout. 
+This is just a version of the popular [Colemak](https://www.colemak.com) keyboard layout. 
 
 It's intended for Finnish people who use ortholinear keyboards.
 
