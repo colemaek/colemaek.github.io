@@ -8,4 +8,5 @@ It's intended for Finnish Colemak users who use ortholinear keyboards.
 
 (The keyboard in the picture is the [ZSA Planck EZ](https://www.zsa.io/planck/))
 
+By: [Manu Järvinen](https://www.manujarvinen.com)
 Contact: colemaek@gmail.com
