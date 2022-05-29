@@ -80,6 +80,10 @@ textboxes {
 	text-align: center;
 }
 
+p {
+	border: 1px solid red;
+}
+
 ul {
 	margin: 1rem 0;
 	padding-left: 1ch;
