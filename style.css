@@ -5,6 +5,7 @@ html {
 }
 
 table {
+	width: 560px;
   	margin-left: auto;
   	margin-right: auto;
 	table-layout: fixed;
