@@ -173,3 +173,38 @@ div.dropdown-text {
   color: #ebe5d7;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    body {
+        margin: 0.3rem;
+    }
+
+    section {
+        padding: 2rem;
+        margin: 1rem auto;
+    }
+}
+
+@media (orientation: portrait) {
+	section {
+		width: unset;
+	}
+}
+
+@media (pointer: none), (pointer: coarse) {
+	html {
+		font-size: 1rem;
+	}
+
+	body {
+		margin: 0.5rem;
+	}
+
+	section {
+		padding: 1rem;
+		margin: 1rem 0;
+	}
+}
