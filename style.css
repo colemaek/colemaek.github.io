@@ -8,11 +8,11 @@ td {
   margin: 0;
   padding: 0;
   border: 0;
-	font-size: 2.2em;
+	font-size: 1.8em;
 	font-weight: 800;
   text-align: center;
-	width: 55px;
-	height: 55px;
+	width: 56px;
+	height: 56px;
 	background: url("frame.svg");
 }
 
