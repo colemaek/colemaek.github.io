@@ -81,6 +81,10 @@ p {
 	text-align: justify;
 }
 
+textboxes { 
+	text-align: center;
+}
+
 ul {
 	margin: 1rem 0;
 	padding-left: 1ch;
