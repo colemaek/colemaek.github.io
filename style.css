@@ -14,6 +14,12 @@ html {
 	scrollbar-color: #111111 #ebe5d7;
 }
 
+td {
+	width: 55px;
+	height: 55px;
+	background-image: frame.svg;
+}
+
 ::selection {
 	background-color: #111111;
 	color: #ebe5d7;
