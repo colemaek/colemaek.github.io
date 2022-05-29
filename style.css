@@ -76,12 +76,9 @@ img {
     margin-right: auto;
 }
 
-textboxes { 
-	text-align: center;
-}
-
 p {
 	border: 1px solid red;
+	text-align: center;
 }
 
 ul {
