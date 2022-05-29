@@ -8,7 +8,7 @@ table {
 	width: 560px;
   	margin-left: auto;
   	margin-right: auto;
-	table-layout: fixed;
+	#table-layout: fixed;
 }
 
 td {
@@ -176,6 +176,10 @@ div.dropdown-text {
 }
 
 @media screen and (max-width: 768px) {
+    td {
+        font-size: 1em;
+    }
+	
     h1 {
         font-size: 4rem;
     }
