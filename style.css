@@ -1,0 +1,203 @@
+@font-face {
+	font-family: "Fira Mono";
+	src: url(../fonts/FiraMono-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: "Alata";
+	src: url(../fonts/Alata-Regular.ttf) format("truetype");
+}
+
+html {
+	font-size: 1.2em;
+	scrollbar-width: thin;
+	scrollbar-color: #111111 #ebe5d7;
+}
+
+::selection {
+	background-color: #111111;
+	color: #ebe5d7;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: #ebe5d7;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #111111;
+}
+
+body {
+	margin: 3rem;
+	background: #ebe5d7;
+	color: #111111;
+	font-family: "Fira Mono", monospace;
+}
+
+h1, h2, h3 {
+	margin: 0.5rem 0;
+	font-weight: bold;
+	font-family: "Alata", monospace;
+}
+
+h1 {
+    font-size: 5em
+}
+
+h2 {
+    font-size: 2em
+}
+
+section {
+	width: 45vw;
+	padding: 3rem;
+	margin: 3rem auto;
+	border: 2px solid black;
+    box-shadow: 8px 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p {
+	text-align: justify;
+}
+
+ul {
+	margin: 1rem 0;
+	padding-left: 1ch;
+	list-style: none;
+}
+
+li {
+	position: relative;
+}
+
+li::before {
+	content: "→ ";
+}
+
+a {
+	color: #111111;
+	text-decoration: underline, currentColor;
+	font-family: "Alata", monospace;
+	font-size: 1.2em;
+}
+
+a[disabled] {
+	opacity: 0.5;
+	cursor: default;
+	pointer-events: none;
+}
+
+summary {
+    cursor: pointer;
+}
+
+div.dropdown-text {
+    margin-left: 40px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.text {
+    text-indent: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.sub {
+    text-indent: 40px;
+}
+
+.text {
+	color: #111111;
+	text-decoration: underline, currentColor;
+	font-family: "Fira Mono", monospace;
+	font-size: 1rem;
+}
+
+.btn {
+    display: inline-flex;
+    height: 45px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+
+    border: 2px solid #111111;
+    color: #111111;
+
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.btn::before{
+    background: #111111;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.2s ease;
+    color: #ebe5d7;
+
+    width: 0%;
+    height: 100%;
+}
+
+.btn:hover::before{
+  width: 100%;
+}
+
+.btn:hover {
+  color: #ebe5d7;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    body {
+        margin: 0.3rem;
+    }
+
+    section {
+        padding: 2rem;
+        margin: 1rem auto;
+    }
+}
+
+@media (orientation: portrait) {
+	section {
+		width: unset;
+	}
+}
+
+@media (pointer: none), (pointer: coarse) {
+	html {
+		font-size: 1rem;
+	}
+
+	body {
+		margin: 0.5rem;
+	}
+
+	section {
+		padding: 1rem;
+		margin: 1rem 0;
+	}
+}
