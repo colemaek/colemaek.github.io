@@ -100,8 +100,8 @@ li::before {
 a {
 	color: #111111;
 	text-decoration: underline, currentColor;
-	font-family: "Alata", monospace;
-	font-size: 1.2em;
+	#font-family: "Alata", monospace;
+	#font-size: 1.2em;
 }
 
 a[disabled] {
